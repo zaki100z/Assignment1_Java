@@ -30,6 +30,6 @@ class Student extends Person {
 
     @Override
     public String toString() {
-        return super.toString() + " I am a student with ID " + studentID;
+        return super.toString() + " I am a student with ID " + studntID + " and GPA Of " + String.format("%.2f", calculateGPA());
     }
 }
